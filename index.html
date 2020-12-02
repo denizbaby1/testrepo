@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Order</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+    </head>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script></script>
+    <body>
+        
+
+                    <div>
+                        <p>Default ....Enter some text in the input below and press return or the "play" button to hear it. change voices using the dropdown menu.</p>
+                        <input type="text" id="voiceTestInput" />
+                        <div>
+                            <label for="rate">Rate</label><input type="range" min="0.5" max="2" value="1" step="0.1" id="rate" />
+                            <div id="rate-value">1</div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div>
+                            <label for="pitch">Pitch</label><input type="range" min="0" max="2" value="1" step="0.1" id="pitch" />
+                            <div id="pitch-value">1</div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <select id="voiceSelect"></select>
+                        <div class="controls">
+                            <button id="voiceTestBtn">Test</button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p>Enter Your name</p>
+                        <input type="text" class="txt" id="userName" />
+                        <button id="startChatBtn">Start Chat</button>
+                        <div>
+                            <p id="phrase">Phrase...</p>
+                            <p id="result">Right or wrong?</p>
+                            <p id="diagnosticPara"></p>
+                            <input type="text" id="playBackTxt" />
+                        </div>
+                        <div id="chatArea"></div>
+                        <button id="voiceRecordBtn">Ask Me</button>
+
+                        <div id="details">
+
+                           <div id ="broadband">
+                              Fibre 1 and Fibre 2
+                           </div>
+
+                        </div>
+                    
+                </div>
+            </div>
+        <script src="../../assets/js/main.js"></script>
+    </body>
+</html>
